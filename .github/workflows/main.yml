@@ -27,7 +27,7 @@ jobs:
 
           # Options
           user: Mod-Sauce
-          template: classic
+          template: terminal
           base: header, activity, community, repositories, metadata
           config_timezone: Europe/Berlin
           plugin_activity: yes
@@ -36,8 +36,6 @@ jobs:
           plugin_activity_limit: 5
           plugin_activity_load: 300
           plugin_activity_visibility: all
-          plugin_isocalendar: yes
-          plugin_isocalendar_duration: half-year
           plugin_lines: yes
           plugin_lines_history_limit: 1
           plugin_lines_repositories_limit: 4
